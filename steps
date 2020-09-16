@@ -1,0 +1,11 @@
+composer update
+create database in mysql
+php artisan key:generate
+php artisan migrate
+php artisan db:seed
+
+composer require laravel/ui:^2.4
+php artisan ui bootstrap
+php artisan ui bootstrap --auth
+npm install && npm run dev
+
